@@ -1,0 +1,31 @@
+/* tema-luiz.css - SOMENTE cores desta página (PDF 2.1: HEX, RGBA) */
+body.tema-luiz { background-color: #FDF1F1; color: #1B1F24; }
+.tema-luiz h1, .tema-luiz h2, .tema-luiz h3 { color: #8E1B1B; }
+.tema-luiz a { color: #B92323; }
+.tema-luiz a:hover { color: #8E1B1B; }
+
+/* navbar */
+.tema-luiz .menu-comum { background-color: #B92323; }
+.tema-luiz .menu-comum a { color: #FFFFFF; }
+.tema-luiz .menu-comum a:hover { background-color: #8E1B1B; color: #FFFFFF; }
+.tema-luiz .menu-comum a.ativo { background-color: #FFFFFF; color: #8E1B1B; border-bottom-color: #8E1B1B; }
+
+/* hero */
+.tema-luiz .hero { background-color: #8E1B1B; color: #FFFFFF; }
+.tema-luiz .hero h1, .tema-luiz .hero h2 { color: #FFFFFF; }
+.tema-luiz .hero .btn-primary { background-color: #FFFFFF; border-color: #FFFFFF; color: #8E1B1B; }
+.tema-luiz .hero .btn-primary:hover, .tema-luiz .hero .btn-primary:focus { background-color: #F8DCDC; border-color: #F8DCDC; color: #8E1B1B; }
+
+/* seções e cartões */
+.tema-luiz .secao-alt { background-color: #FFFFFF; }
+.tema-luiz .titulo::before { background-color: #B92323; }
+.tema-luiz .cartao { background-color: #FFFFFF; border: 1px solid #F8DCDC; }
+.tema-luiz .secao-alt .cartao { background-color: #FDF1F1; }
+.tema-luiz .cartao:hover, .tema-luiz .cartao:focus-within { border-color: #B92323; }
+.tema-luiz .foto:hover, .tema-luiz .foto:focus-visible { outline: 3px solid #B92323; }
+.tema-luiz .subtitulo { color: #B92323; }
+
+/* rodapé */
+.tema-luiz .rodape { background-color: #8E1B1B; color: #FFFFFF; }
+.tema-luiz .rodape a { color: #FFFFFF; }
+.tema-luiz .rodape a:hover { color: #F8DCDC; }

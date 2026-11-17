@@ -1,0 +1,31 @@
+/* tema-joel.css - SOMENTE cores desta página (PDF 2.1: HEX, RGBA) */
+body.tema-joel { background-color: #F0F8F2; color: #1B1F24; }
+.tema-joel h1, .tema-joel h2, .tema-joel h3 { color: #14532B; }
+.tema-joel a { color: #1B6F36; }
+.tema-joel a:hover { color: #14532B; }
+
+/* navbar */
+.tema-joel .menu-comum { background-color: #1B6F36; }
+.tema-joel .menu-comum a { color: #FFFFFF; }
+.tema-joel .menu-comum a:hover { background-color: #14532B; color: #FFFFFF; }
+.tema-joel .menu-comum a.ativo { background-color: #FFFFFF; color: #14532B; border-bottom-color: #14532B; }
+
+/* hero */
+.tema-joel .hero { background-color: #14532B; color: #FFFFFF; }
+.tema-joel .hero h1, .tema-joel .hero h2 { color: #FFFFFF; }
+.tema-joel .hero .btn-primary { background-color: #FFFFFF; border-color: #FFFFFF; color: #14532B; }
+.tema-joel .hero .btn-primary:hover, .tema-joel .hero .btn-primary:focus { background-color: #DDEFE3; border-color: #DDEFE3; color: #14532B; }
+
+/* seções e cartões */
+.tema-joel .secao-alt { background-color: #FFFFFF; }
+.tema-joel .titulo::before { background-color: #1B6F36; }
+.tema-joel .cartao { background-color: #FFFFFF; border: 1px solid #DDEFE3; }
+.tema-joel .secao-alt .cartao { background-color: #F0F8F2; }
+.tema-joel .cartao:hover, .tema-joel .cartao:focus-within { border-color: #1B6F36; }
+.tema-joel .foto:hover, .tema-joel .foto:focus-visible { outline: 3px solid #1B6F36; }
+.tema-joel .subtitulo { color: #1B6F36; }
+
+/* rodapé */
+.tema-joel .rodape { background-color: #14532B; color: #FFFFFF; }
+.tema-joel .rodape a { color: #FFFFFF; }
+.tema-joel .rodape a:hover { color: #DDEFE3; }

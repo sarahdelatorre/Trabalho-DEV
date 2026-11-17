@@ -1,0 +1,125 @@
+/* =====================================================================
+   estilo.css - layout padronizado das 5 páginas (sem cores: ver tema-<nome>.css)
+   Fonte dos conceitos: PDF "O Cardápio do Navegador: CSS do Seletor ao Bootstrap"
+
+   BOOTSTRAP (cap. 8): container, row, col-*, col-md-*, col-lg-*, g-3, mt-3,
+                       text-center, btn btn-primary
+   3 CONCEITOS EXTRAS (os mesmos em todas as páginas, para padronizar):
+     1) PDF 3.4  border-radius + box-shadow  -> .cartao e .foto
+     2) PDF 6.1  :hover e :focus-visible     -> .cartao, .foto
+     3) PDF 6.3  ::before                    -> .titulo::before
+   BASE COMUM (não conta na cota): cores, fontes (2.2), box-sizing (3.2),
+     imagens responsivas (7.3), @media (7.2), Flexbox da navbar/rodapé (4.2),
+     display inline-block (4.1)
+   ===================================================================== */
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+img { max-width: 100%; height: auto; }
+h1, h2, h3 { line-height: 1.25; }
+
+/* ---------- CASCA COMUM: navbar ---------- */
+.menu-comum { padding: 10px 0; }
+
+.menu-interno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu-marca { font-weight: bold; font-size: 1.15rem; text-decoration: none; }
+.menu-links { display: flex; flex-wrap: wrap; gap: 4px; }
+.menu-links a {
+  display: block;
+  padding: 6px 14px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+/* ---------- CASCA COMUM: hero ---------- */
+.hero { padding: 3rem 0 2.5rem; }
+.hero h1 { font-size: 2.4rem; margin: 0 0 0.5rem; }
+.hero h2 { font-size: 1.3rem; font-weight: normal; margin: 0 0 1rem; }
+.hero .rotulo { font-size: 1rem; margin: 1.25rem 0 0.5rem; letter-spacing: 1px; }
+
+.atalhos { list-style: none; padding: 0; margin: 1rem 0 0; }
+.atalhos li { display: inline-block; margin: 0 8px 8px 0; }
+
+/* ---------- Seções ---------- */
+.secao { padding: 2.5rem 0; }
+.titulo { font-size: 1.7rem; margin: 0 0 1.25rem; }
+.subtitulo { font-size: 1.3rem; margin: 1.5rem 0 1rem; }
+.intro { margin: 0 0 1.25rem; font-size: 1.05rem; }
+.texto { font-size: 1.05rem; }
+.fatos { font-size: 1.15rem; padding-left: 1.25rem; }
+
+/* Conceito 3 - PDF 6.3: ::before cria um marcador que não existe no HTML */
+.titulo::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 1.1em;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+/* ---------- Cartões e fotos ---------- */
+/* Conceito 1 - PDF 3.4: border-radius + box-shadow */
+.cartao {
+  height: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.18);
+}
+
+.foto {
+  display: block;
+  margin: 0;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+}
+.foto img { display: block; width: 100%; border-radius: 12px; }
+
+/* Conceito 2 - PDF 6.1: :hover e :focus-visible */
+.cartao:hover, .cartao:focus-within { box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.30); }
+.foto:hover, .foto:focus-visible { box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.40); }
+
+.cartao h3 { font-size: 1.15rem; margin: 0 0 0.75rem; }
+.cartao p { margin: 0 0 0.5rem; }
+.lugar .foto { margin-bottom: 10px; }
+.saiba { margin: 0.25rem 0 0; }
+
+.lista-cartoes { list-style: none; padding-left: 0; }
+
+.legenda { margin: 0.75rem 0 0; padding-left: 1.5rem; }
+p.legenda { padding-left: 0; font-style: italic; text-align: center; }
+.integrante .legenda { list-style-position: inside; padding-left: 0; font-size: 1.1rem; }
+.cartao ol.legenda { margin-top: 0; margin-bottom: 0.75rem; }
+
+.midias { margin-top: 8px; }
+.mini { width: 48%; max-width: 200px; margin: 4px 4px 0 0; border-radius: 12px; }
+
+/* ---------- CASCA COMUM: rodapé ---------- */
+.rodape { padding: 2rem 0 1rem; margin-top: 2rem; }
+.rodape p { margin: 0; }
+.rodape-links { list-style: none; padding: 0; margin: 0; }
+.rodape-links li { display: inline-block; margin: 0 14px 6px 0; }
+
+/* ---------- Responsividade (PDF 7.2) ---------- */
+@media (max-width: 575px) {
+  .menu-interno { justify-content: center; }
+  .menu-marca { width: 100%; text-align: center; }
+  .menu-links { justify-content: center; }
+  .hero h1 { font-size: 1.8rem; }
+  .titulo { font-size: 1.45rem; }
+}
