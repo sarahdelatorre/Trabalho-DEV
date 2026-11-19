@@ -1,4 +1,4 @@
-# 💻 1C — Um Pouco Sobre Nós
+# 1C — Um Pouco Sobre Nós
 
 Bem-vindo ao repositório da turma **1C**!
 
@@ -12,11 +12,11 @@ Cada aluno terá sua própria página pessoal, desenvolvida utilizando **HTML e 
 
 Entre os conteúdos que poderão fazer parte das páginas estão:
 
-- ❤️ **Coisas que gostamos:** hobbies, interesses e atividades favoritas.
-- 🌎 **Lugares que já visitamos:** viagens, passeios e experiências especiais.
-- 👨‍👩‍👧‍👦 **Família:** pessoas importantes e momentos especiais.
-- 🎵 **Músicas favoritas:** artistas, bandas e músicas que fazem parte do nosso dia a dia.
-- 📸 **Galeria de fotos:** registros, lembranças e momentos marcantes.
+-  **Coisas que gostamos:** hobbies, interesses e atividades favoritas.
+-  **Lugares que já visitamos:** viagens, passeios e experiências especiais.
+-  **Família:** pessoas importantes e momentos especiais.
+-  **Músicas favoritas:** artistas, bandas e músicas que fazem parte do nosso dia a dia.
+-  **Galeria de fotos:** registros, lembranças e momentos marcantes.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -31,7 +31,7 @@ Colocar em prática os conhecimentos adquiridos nas aulas de desenvolvimento web
 
 Cada página será única, assim como cada aluno da turma. Ao reunir todos esses trabalhos, construiremos um espaço que representa um pouco da identidade, das memórias e da diversidade do **1C**.
 
-**Afinal, por trás de cada código, existe uma história para contar!** 💙
+**Afinal, por trás de cada código, existe uma história para contar!** 
 
 ---
 
