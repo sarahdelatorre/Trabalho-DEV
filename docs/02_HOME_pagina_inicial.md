@@ -227,7 +227,7 @@ Passo a passo para sair do estado inicial de `index.html` e chegar à v3 (tema a
 - **Estudar no PDF:** Cap. 3.1
 - **Pronto quando:** 4 cartões com imagem clicável.
 
-#### T086 · Corrigir os 3 links vazios (href="") para bianca/lais/luiz.html
+#### T086 · Corrigir os 3 links vazios (href="") para sarah/lais/luiz.html
 **Quem:** Luiz (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T085
 
 - **O que fazer:** No original, só o Joel tem link na lista de nomes; os outros 3 estão vazios. Preencha com o arquivo de cada página.
@@ -236,7 +236,7 @@ Passo a passo para sair do estado inicial de `index.html` e chegar à v3 (tema a
 #### T087 · Corrigir o texto alternativo (alt) das 4 imagens
 **Quem:** Luiz (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T086
 
-- **O que fazer:** No original todas têm alt="Bianca Bazoni Macedo". Troque cada alt pelo nome da pessoa da imagem. O alt é lido por leitor de tela e aparece se a imagem falhar.
+- **O que fazer:** No original todas têm alt="sarah Bazoni Macedo". Troque cada alt pelo nome da pessoa da imagem. O alt é lido por leitor de tela e aparece se a imagem falhar.
 - **Estudar fora do PDF:** [MDN: Elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements)
 - **Pronto quando:** 4 alt diferentes e corretos.
 
@@ -255,11 +255,11 @@ Passo a passo para sair do estado inicial de `index.html` e chegar à v3 (tema a
 - **Estudar no PDF:** Cap. 8.3 (text-center)
 - **Pronto quando:** Imagens e nomes centralizados.
 
-#### T090 · Atualizar o cartão da Bianca para o da Sarah
+#### T090 · Atualizar o cartão da sarah para o da Sarah
 **Quem:** Luiz (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T003
 
 - **O que fazer:** Depois da troca, mude o nome, o link e o ícone do cartão 1 (sarah.html e icons/Sarah_favicon.png), inclusive no hero e na navbar.
-- **Pronto quando:** Nenhuma menção à Bianca na home.
+- **Pronto quando:** Nenhuma menção à sarah na home.
 
 ## M5 · Estilo final
 
