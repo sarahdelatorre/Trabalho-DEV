@@ -1,0 +1,179 @@
+.tema-luiz {
+    --cor-principal: #e8752e;
+    --cor-secundaria: #bd501d;
+    --cor-destaque: #f5a66e;
+    --cor-fundo: #fffaf6;
+    --cor-fundo-alternativo: #ffeadb;
+    --cor-texto: #49372d;
+
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* ---------- Navbar ---------- */
+
+.tema-luiz .menu-comum {
+    background-color: var(--cor-principal);
+}
+
+.tema-luiz .menu-comum .marca,
+.tema-luiz .menu-comum .menu-links a {
+    color: white;
+}
+
+.tema-luiz .menu-links a.ativo {
+    border-bottom-color: white;
+}
+
+.tema-luiz .menu-links a:hover {
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+
+/* ---------- Hero ---------- */
+
+.tema-luiz .hero {
+    background-color: var(--cor-fundo-alternativo);
+}
+
+.tema-luiz .hero h1 {
+    color: var(--cor-secundaria);
+}
+
+.tema-luiz .hero .rotulo {
+    color: var(--cor-principal);
+}
+
+.tema-luiz .hero .btn-primary {
+    background-color: var(--cor-principal);
+    border-color: var(--cor-principal);
+    color: white;
+}
+
+.tema-luiz .hero .btn-primary:hover {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+}
+
+/* ---------- Seções ---------- */
+
+.tema-luiz .secao {
+    background-color: var(--cor-fundo);
+}
+
+.tema-luiz .secao-alt {
+    background-color: var(--cor-fundo-alternativo);
+}
+
+.tema-luiz .titulo {
+    color: var(--cor-secundaria);
+}
+
+.tema-luiz .titulo::before {
+    background-color: var(--cor-principal);
+}
+
+.tema-luiz .subtitulo-secao {
+    color: var(--cor-principal);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ---------- Cartões ---------- */
+
+.tema-luiz .cartao {
+    background-color: white;
+    border-color: #f2c4a5;
+}
+
+.tema-luiz .cartao h3 {
+    color: var(--cor-secundaria);
+}
+
+.tema-luiz .cartao a {
+    color: var(--cor-principal);
+}
+
+.tema-luiz .cartao a:hover {
+    color: var(--cor-secundaria);
+}
+
+/* ---------- Curiosidades ---------- */
+
+.tema-luiz .curiosidade {
+    text-align: center;
+}
+
+.tema-luiz .curiosidade .foto {
+    margin-bottom: 1rem;
+}
+
+.tema-luiz .curiosidade .foto img {
+    height: 180px;
+    object-fit: contain;
+    background-color: white;
+}
+
+/* ---------- Fotos ---------- */
+
+.tema-luiz .foto {
+    background-color: white;
+}
+
+.tema-luiz .foto img {
+    border-radius: 12px;
+}
+
+.tema-luiz .foto:hover {
+    box-shadow: 0 6px 16px rgba(189, 80, 29, 0.2);
+}
+
+/* ---------- Galeria ---------- */
+
+/* ---------- Galeria ---------- */
+
+.tema-luiz #fotos .foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.tema-luiz #fotos .foto img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+}
+
+/* ---------- Rodapé ---------- */
+
+.tema-luiz .rodape {
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+
+.tema-luiz .rodape a {
+    color: white;
+}
+
+.tema-luiz .rodape a:hover {
+    color: #ffd2b3;
+}
+
+/* ---------- Responsividade ---------- */
+
+@media (max-width: 767.98px) {
+
+    .tema-luiz .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .tema-luiz #fotos .foto img {
+        height: 150px;
+    }
+
+}

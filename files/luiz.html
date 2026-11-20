@@ -1,86 +1,311 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="icon" href="../icons/Luiz_favicon.png">
     <meta charset="UTF-8">
-    <title>Quem sou eu - Minha Apresentação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apresentacao_Luiz</title>
+
+    <link rel="icon" href="../icons/Luiz_favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/tema-luiz.css">
 </head>
-<body>
 
-    <h1>Luiz Miguel Félix Ferreira</h1>
-    <ul>
-        <li>1 Ano C - TEC</li>
-        <li>15 anos</li>
-        <li>Osasco - SP</li>
-    </ul>
-    <p><a href="index.html">Voltar para a <strong>Página inicial</strong></a></p>
-    
-    
-    <img src="../images/luiz/aa.jpg" alt="Minha foto" width="800" height="500"> <img src="../icons/Luiz_favicon.png" alt="Emoji">
-    
-    <hr> 
-    <h2>Algumas Curiosidades sobre Mim</h2>
-    <ul>
-        <li>Gosto muito de praticar esportes <img src="../images/luiz/volei.avif" alt="Vôlei" width="150"></li>
-        <br>
-        <li>Gosto de ouvir música e jogar videogame <img src="../images/luiz/sportfire.png" alt="Música" width="150"></li>
-        <br>
-        <li>Estou apredendo a tocar teclado ! <img src="../images/luiz/made-in-china.webp" alt="Teclado" width="150"></li>
-    </ul>
+<body class="tema-luiz">
 
-    <hr>
+    <!-- NAVBAR -->
+    <header id="topo" class="menu-comum">
+        <nav class="container menu-interno" aria-label="Navegação principal">
+            <a class="marca" href="index.html">Grupo 1ºC</a>
 
-    <h2>Viagens</h2>
-    
-<table border="1" cellpadding="10">
-        <tr>
-            <th><h3>Lugares que eu já visitei</h3></th>
-            <th><h3>Lugares que eu quero conhecer</h3></th>
-        </tr>
-        
-        <tr>
-            <td valign="top">
-                <ul>
-                    <li>
-                        <a href="https://pt.wikipedia.org/wiki/Porto_Seguro" target="_blank">Porto Seguro</a>
-                        <br><img src="../images/luiz/porto-seguro-bahia-jpg.webp" alt="Imagem de Porto Seguro" width="180">
-                    </li>
-                    <br>
-                    <li>
-                        <a href="https://pt.wikipedia.org/wiki/%C3%81guas_de_Lind%C3%B3ia" target="_blank">Águas De Lindóia</a>
-                        <br><img src="../images/luiz/x-4.jpg" alt="Imagem de Águas de Lindóia" width="180">
-                    </li>
-                    <br>
-                    <li>
-                        <a href="https://pt.wikipedia.org/wiki/Teresina" target="_blank">Teresina</a>
-                        <br><img src="../images/luiz/mirante-ponte-estaiada-teresina-piaui.webp" alt="Teresina" width="180">
-                    </li>
-                </ul>
-            </td>
-            
-            <td valign="top">
-                <ul>
-                    <li>
-                        <a href="https://pt.wikipedia.org/wiki/Jijoca_de_Jericoacoara" target="_blank">Ilha de Jericoacoara</a>
-                        <br><img src="../images/luiz/jericoacoara.jpg" alt="Imagem da ilha Jericoacoara" width="180">
-                    </li>
-                    <br>
-                    <li>
-                        <a href="https://pt.wikipedia.org/wiki/Santiago_(Chile)" target="_blank">Santiago - Chile</a>
-                        <br><img src="../images/luiz/chile.jpg" alt="Imagem de Santiago" width="180">
-                    </li>
-                    <br>
-                    <li>
-                        <a href="https://pt.wikipedia.org/wiki/Buenos_Aires" target="_blank">Buenos Aires</a>
-                        <br><img src="../images/luiz/BCC-2024-EXPLORER-BUENOS_AIRES-LANDMARKS-HEADER-_MOBILE.webp" alt="Buenos Aires - Argentina" width="180">
-                    </li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+            <ul class="menu-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sarah.html">Sarah</a></li>
+                <li><a href="joel.html">Joel</a></li>
+                <li><a href="lais.html">Laís</a></li>
+                <li><a href="luiz.html" class="ativo" aria-current="page">Luiz</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Fotos !</h2>
-    <img src="../images/luiz/aaaaaaaaaa.jpg" alt="ft" width="150"> <img src="../images/luiz/dsadsad.jpg" alt="ft" width="150"> <img src="../images/luiz/ASasddasd.jpg" alt="ft" width="150"> <img src="../images/luiz/eeeeee.jpg" alt="ft" width="150"> <img src="../images/luiz/fffffffff.jpg" alt="ft" width="150"> <img src="../images/luiz/ggggggggg.jpg" alt="ft" width="150"> <img src="../images/luiz/hhhhhhhhh.jpg" alt="ft" width="150"><img src="../images/luiz/iiiiiiiiiiii.jpg" alt="ft" width="150">
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <h1>Luiz Miguel Félix Ferreira</h1>
+
+            <h2 class="rotulo">TÓPICOS DA PÁGINA</h2>
+
+            <ul class="atalhos">
+                <li><a class="btn btn-primary" href="index.html">Voltar para a <strong>página inicial</strong></a></li>
+                <li><a class="btn btn-primary" href="#sobremim">Sobre mim</a></li>
+                <li><a class="btn btn-primary" href="#curiosidades">Curiosidades</a></li>
+                <li><a class="btn btn-primary" href="#viagens">Viagens</a></li>
+                <li><a class="btn btn-primary" href="#fotos">Fotos</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- SOBRE MIM -->
+        <section id="sobremim" class="secao">
+            <div class="container">
+                <h2 class="titulo">Sobre mim</h2>
+
+                <div class="row g-4 align-items-center">
+
+                    <div class="col-12 col-lg-7">
+                        <p>Meu nome é Luiz Miguel Félix Ferreira, tenho 15 anos e moro em Osasco - São Paulo. Atualmente, estudo no 1º Ano C do curso de Tecnologia. Tenho uma irmã chamada Maria Eduarda que estuda também aqui na escola no FinTech. Antes de ingressar na Germinare estudava em uma escola chamada Brito no Vila Yara. Onde estudei do 6° ao 9°ano.</p>
+
+                        <p>Gosto muito de praticar esportes, principalmente o Volei, onde já disputei campeonatos e ganhei várias medalhas. Também gosto de ouvir música e jogar videogame quando tenho tempo. Meus filmes e séries favoritos são O livro da vida e The Roockie.</p>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <figure class="foto">
+                            <img src="../images/luiz/aa.jpg" alt="Foto de Luiz">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CURIOSIDADES -->
+        <section id="curiosidades" class="secao secao-alt">
+            <div class="container">
+
+                <h2 class="titulo">Algumas curiosidades sobre mim</h2>
+
+                <div class="row g-3">
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="cartao curiosidade">
+                            <figure class="foto">
+                                <img src="../images/luiz/volei.avif" alt="Vôlei">
+                            </figure>
+                            <h3>Esportes</h3>
+                            <p>Gosto muito de praticar esportes.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="cartao curiosidade">
+                            <figure class="foto">
+                                <img src="../images/luiz/sportfire.png" alt="Música e videogame">
+                            </figure>
+                            <h3>Música e jogos</h3>
+                            <p>Gosto de ouvir música e jogar videogame.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="cartao curiosidade">
+                            <figure class="foto">
+                                <img src="../images/luiz/made-in-china.webp" alt="Teclado musical">
+                            </figure>
+                            <h3>Aprendizado</h3>
+                            <p>Estou aprendendo a tocar teclado!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- VIAGENS -->
+        <section id="viagens" class="secao">
+            <div class="container">
+
+                <h2 class="titulo">Minhas viagens</h2>
+
+                <p>Conheça alguns lugares que já visitei e outros que ainda quero conhecer!</p>
+
+                <h3 class="subtitulo-secao" id="visitei">Lugares que já visitei</h3>
+
+                <div class="row g-3">
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cartao">
+                            <h3>Porto Seguro</h3>
+
+                            <figure class="foto">
+                                <img src="../images/luiz/porto-seguro-bahia-jpg.webp" alt="Imagem de Porto Seguro">
+                            </figure>
+
+                            <p class="saiba">
+                                <a href="https://pt.wikipedia.org/wiki/Porto_Seguro" target="_blank">Clique aqui para conhecer Porto Seguro.</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cartao">
+                            <h3>Águas de Lindóia</h3>
+
+                            <figure class="foto">
+                                <img src="../images/luiz/x-4.jpg" alt="Imagem de Águas de Lindóia">
+                            </figure>
+
+                            <p class="saiba">
+                                <a href="https://pt.wikipedia.org/wiki/%C3%81guas_de_Lind%C3%B3ia" target="_blank">Clique aqui para conhecer Águas de Lindóia.</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cartao">
+                            <h3>Teresina</h3>
+
+                            <figure class="foto">
+                                <img src="../images/luiz/mirante-ponte-estaiada-teresina-piaui.webp" alt="Imagem de Teresina">
+                            </figure>
+
+                            <p class="saiba">
+                                <a href="https://pt.wikipedia.org/wiki/Teresina" target="_blank">Clique aqui para conhecer Teresina.</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3 class="subtitulo-secao" id="visitar">Lugares que quero conhecer</h3>
+
+                <div class="row g-3">
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cartao">
+                            <h3>Jericoacoara</h3>
+
+                            <figure class="foto">
+                                <img src="../images/luiz/jericoacoara.jpg" alt="Imagem de Jericoacoara">
+                            </figure>
+
+                            <p class="saiba">
+                                <a href="https://pt.wikipedia.org/wiki/Jijoca_de_Jericoacoara" target="_blank">Clique aqui para conhecer Jericoacoara.</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cartao">
+                            <h3>Santiago - Chile</h3>
+
+                            <figure class="foto">
+                                <img src="../images/luiz/chile.jpg" alt="Imagem de Santiago">
+                            </figure>
+
+                            <p class="saiba">
+                                <a href="https://pt.wikipedia.org/wiki/Santiago_(Chile)" target="_blank">Clique aqui para conhecer Santiago.</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cartao">
+                            <h3>Buenos Aires</h3>
+
+                            <figure class="foto">
+                                <img src="../images/luiz/BCC-2024-EXPLORER-BUENOS_AIRES-LANDMARKS-HEADER-_MOBILE.webp" alt="Imagem de Buenos Aires">
+                            </figure>
+
+                            <p class="saiba">
+                                <a href="https://pt.wikipedia.org/wiki/Buenos_Aires" target="_blank">Clique aqui para conhecer Buenos Aires.</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA DE FOTOS -->
+        <section id="fotos" class="secao secao-alt">
+            <div class="container">
+
+                <h2 class="titulo">Minha galeria de fotos</h2>
+
+                <div class="row g-3">
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/aaaaaaaaaa.jpg" alt="Foto pessoal 1">
+                        </figure>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/dsadsad.jpg" alt="Foto pessoal 2">
+                        </figure>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/ASasddasd.jpg" alt="Foto pessoal 3">
+                        </figure>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/eeeeee.jpg" alt="Foto pessoal 4">
+                        </figure>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/fffffffff.jpg" alt="Foto pessoal 5">
+                        </figure>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/ggggggggg.jpg" alt="Foto pessoal 6">
+                        </figure>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/hhhhhhhhh.jpg" alt="Foto pessoal 7">
+                        </figure>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <figure class="foto">
+                            <img src="../images/luiz/iiiiiiiiiiii.jpg" alt="Foto pessoal 8">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Grupo pertencente ao 1ºC</p>
+                </div>
+
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sarah.html">Sarah</a></li>
+                        <li><a href="joel.html">Joel</a></li>
+                        <li><a href="lais.html">Laís</a></li>
+                        <li><a href="luiz.html">Luiz</a></li>
+                    </ul>
+
+                    <p><a href="#topo">Volte ao topo da página!</a></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 </html>
