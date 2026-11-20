@@ -1,6 +1,6 @@
-# Guia 3 de 6 · Página da Sarah (substitui a da Bianca)
+# Guia 3 de 6 · Página da Sarah (substitui a da sarah)
 
-Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a definir (azul, como o modelo da Bianca, ou rosa)). Responsável sugerido pela página: **Sarah**. Faça um marco por vez e dê commit ao fim de cada um. **Esta frente começa pela substituição da página da Bianca (T003 e seus passos pequenos, marco M1)** e só depois segue para a v3.
+Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a definir (azul, como o modelo da sarah, ou rosa)). Responsável sugerido pela página: **Sarah**. Faça um marco por vez e dê commit ao fim de cada um. **Esta frente começa pela substituição da página da sarah (T003 e seus passos pequenos, marco M1)** e só depois segue para a v3.
 
 > Os IDs (T001...) são os mesmos da planilha `Controle_de_Tarefas_Grupo_1C.xlsx`. Marque o status por lá. Responsáveis e prazos marcados como "sugerido" ou "A definir" podem ser ajustados pelo grupo.
 
@@ -49,7 +49,7 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 #### T110 · Criar sarah.html a partir do texto da Sarah
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~30 min · **Depois de:** T109 · *passo de T003*
 
-- **O que fazer:** Copie o bianca.html como molde de estrutura (h1, parágrafos, listas, imagens) e troque o conteúdo pelo da Sarah. Salve como sarah.html em files/.
+- **O que fazer:** Copie o sarah.html como molde de estrutura (h1, parágrafos, listas, imagens) e troque o conteúdo pelo da Sarah. Salve como sarah.html em files/.
 - **Pronto quando:** sarah.html criado.
 
 #### T111 · Ajustar os caminhos das imagens para ../images/sarah/…
@@ -65,36 +65,36 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 - **O que fazer:** No <head>, ajuste <link rel="icon" href="../icons/Sarah_favicon.png"> (coloque o arquivo em icons/) e o <title> com o nome da Sarah.
 - **Pronto quando:** Aba do navegador mostra o nome e o ícone certos.
 
-#### T113 · Trocar bianca.html por sarah.html na home e nas outras páginas
+#### T113 · Trocar sarah.html por sarah.html na home e nas outras páginas
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T112 · *passo de T003*
 
-- **O que fazer:** Procure "bianca.html" em todos os arquivos (Ctrl+Shift+F no editor) e troque por "sarah.html".
-- **Pronto quando:** Busca por "bianca.html" não retorna nada.
+- **O que fazer:** Procure "sarah.html" em todos os arquivos (Ctrl+Shift+F no editor) e troque por "sarah.html".
+- **Pronto quando:** Busca por "sarah.html" não retorna nada.
 
-#### T114 · Trocar o nome "Bianca" por "Sarah" na navbar e no rodapé
+#### T114 · Trocar o nome "sarah" por "Sarah" na navbar e no rodapé
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T113 · *passo de T003*
 
 - **O que fazer:** Nos blocos modelo/navbar.html e modelo/rodape.html (e nas páginas que já os usam) troque o rótulo do link.
 - **Pronto quando:** Navbar e rodapé mostram "Sarah".
 
-#### T115 · Mover bianca.html e images/bianca/ para fora do projeto
+#### T115 · Mover sarah.html e images/sarah/ para fora do projeto
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T114 · *passo de T003*
 
 - **O que fazer:** Use "git rm" (ou "git mv" para uma pasta arquivo/). O histórico do Git guarda os arquivos antigos, então nada se perde.
 - **Estudar no PDF:** Cap. 1.2 (caminhos de arquivos)
 - **Estudar fora do PDF:** [Pro Git (pt-br), caps. 2 e 3](https://git-scm.com/book/pt-br/v2)
-- **Pronto quando:** Pasta e arquivo da Bianca fora de files/ e images/.
+- **Pronto quando:** Pasta e arquivo da sarah fora de files/ e images/.
 
-#### T116 · Testar: nenhuma página aponta mais para a Bianca
+#### T116 · Testar: nenhuma página aponta mais para a sarah
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~15 min · **Depois de:** T115 · *passo de T003*
 
-- **O que fazer:** Procure "bianca" no projeto inteiro e abra as 5 páginas clicando nos links.
+- **O que fazer:** Procure "sarah" no projeto inteiro e abra as 5 páginas clicando nos links.
 - **Pronto quando:** Zero ocorrências e nenhum link quebrado.
 
-#### T117 · Commit e Pull Request "Substituir página da Bianca pela página da Sarah"
+#### T117 · Commit e Pull Request "Substituir página da sarah pela página da Sarah"
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~15 min · **Depois de:** T116 · *passo de T003*
 
-- **O que fazer:** git add . e git commit -m "Substitui página da Bianca pela da Sarah"; depois abra o Pull Request pedindo revisão.
+- **O que fazer:** git add . e git commit -m "Substitui página da sarah pela da Sarah"; depois abra o Pull Request pedindo revisão.
 - **Estudar fora do PDF:** [Pro Git (pt-br), caps. 2 e 3](https://git-scm.com/book/pt-br/v2)
 - **Pronto quando:** Pull Request aberto.
 
@@ -157,7 +157,7 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 
 - **O que fazer:** Troque <body> por <body class="tema-sarah">. O CSS do tema só age em páginas que tenham essa classe.
 - **Estudar no PDF:** Cap. 1.3 (seletor de classe)
-- **Pronto quando:** Fundo da página na cor do tema (a definir (azul, como o modelo da Bianca, ou rosa)).
+- **Pronto quando:** Fundo da página na cor do tema (a definir (azul, como o modelo da sarah, ou rosa)).
 
 #### T126 · Testar: recarregar e ver se o fundo e a fonte mudaram
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T125
@@ -176,7 +176,7 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 #### T128 · Decidir a cor da Sarah (azul do modelo ou rosa)
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T127
 
-- **O que fazer:** Converse com o grupo: a Bianca era azul (#1F5FBF) e a cor rosa foi pedida para a Sarah. Escolha uma, anote no README e copie a paleta correspondente para tema-sarah.css.
+- **O que fazer:** Converse com o grupo: a sarah era azul (#1F5FBF) e a cor rosa foi pedida para a Sarah. Escolha uma, anote no README e copie a paleta correspondente para tema-sarah.css.
 - **Estudar no PDF:** Cap. 2.1
 - **Estudar fora do PDF:** [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - **Pronto quando:** Cor decidida e registrada.
@@ -278,7 +278,7 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 #### T141 · Transformar o índice de tópicos (se existir) nos botões do hero
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~20 min · **Depois de:** T140
 
-- **O que fazer:** No modelo da Bianca o índice "TÓPICOS DA PÁGINA" era uma lista de âncoras. Cada item vira um botão do hero e cada âncora precisa de um id na seção correspondente (id="sobremim", "curiosidades", "visitei", "visitar").
+- **O que fazer:** No modelo da sarah o índice "TÓPICOS DA PÁGINA" era uma lista de âncoras. Cada item vira um botão do hero e cada âncora precisa de um id na seção correspondente (id="sobremim", "curiosidades", "visitei", "visitar").
 - **Estudar no PDF:** Cap. 8.3
 - **Estudar fora do PDF:** [MDN: Elementos HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements)
 - **Pronto quando:** Cada botão leva à seção certa.
@@ -378,7 +378,7 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 #### T154 · Conferir as cores do tema na página inteira
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T153
 
-- **O que fazer:** Olhe navbar, hero, títulos, links e rodapé: tudo na cor a definir (azul, como o modelo da Bianca, ou rosa) e legível.
+- **O que fazer:** Olhe navbar, hero, títulos, links e rodapé: tudo na cor a definir (azul, como o modelo da sarah, ou rosa) e legível.
 - **Estudar no PDF:** Cap. 2.1
 - **Estudar fora do PDF:** [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - **Pronto quando:** Visual coerente com o tema.

@@ -1,0 +1,51 @@
+/* tema-sarah.css - SOMENTE cores desta página (PDF 2.1: HEX, RGBA) */
+body.tema-sarah { background-color: #ffcdb7; color: #1B1F24; }
+.tema-sarah h1, .tema-sarah h2, .tema-sarah h3 { color: #F86080; }
+.tema-sarah a { color: #F86080; }
+.tema-sarah a:hover { color: #F86080; }
+
+/* navbar */
+.tema-sarah .menu-comum { background-color: #F88030; }
+.tema-sarah .menu-comum a { color: #ffcdb7; }
+.tema-sarah .menu-comum a:hover { background-color: #F86080; color: #ffe3d9; }
+.tema-sarah .menu-comum a.ativo { background-color: #ffe3d9; color: #F86080; border-bottom-color: #F86080; }
+
+/* hero */
+.tema-sarah .hero { background-color: #F86080; color: #ffe3d9; }
+.tema-sarah .hero h1, .tema-sarah .hero h2 { color: #ffe3d9; }
+.tema-sarah .hero .btn-primary { background-color: #ffe3d9; border-color: #ffe3d9; color: #F86080; }
+.tema-sarah .hero .btn-primary:hover, .tema-sarah .hero .btn-primary:focus { background-color: #F8C8B0; border-color: #ffe3d9; color: #F86080; }
+
+/* seções e cartões */
+.tema-sarah .secao-alt { background-color: #ffe3d9; }
+.tema-sarah .titulo::before { background-color: #F88030; }
+.tema-sarah .cartao { background-color: #ffe3d9; border: 1px solid #ffe3d9; }
+.tema-sarah .secao-alt .cartao { background-color: #ffe3d9; }
+.tema-sarah .cartao:hover, .tema-sarah .cartao:focus-within { border-color: #F88030; }
+.tema-sarah .foto:hover, .tema-sarah .foto:focus-visible { outline: 3px solid #F88030; }
+.tema-sarah .subtitulo { color: #F88030; }
+
+/* rodapé */
+.tema-sarah .rodape { background-color: #F86080; color: #ffe3d9; }
+.tema-sarah .rodape a { color: #ffe3d9; }
+.tema-sarah .rodape a:hover { color: #ffe3d9; }
+
+/* Ajustes exclusivos da seção Sobre mim */
+
+/* Duas fotos principais um pouco maiores */
+.tema-sarah .sobre-destaque .foto img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+/* Fotos da família abaixo do texto, lado a lado */
+.tema-sarah .sobre-familia {
+    margin-top: 12px;
+}
+
+.tema-sarah .sobre-familia .foto img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}

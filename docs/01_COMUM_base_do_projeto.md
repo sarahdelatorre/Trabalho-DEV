@@ -41,13 +41,13 @@ Tarefas que valem para o grupo todo: repositório, V1, base de CSS, navbar, hero
 - **Estudar fora do PDF:** [GitHub Docs: Hello World](https://docs.github.com/en/get-started/start-your-journey/hello-world); [Pro Git (pt-br), caps. 2 e 3](https://git-scm.com/book/pt-br/v2)
 - **Pronto quando:** As 5 páginas, images/ e icons/ aparecem no GitHub.
 
-#### T003 · Substituir página da Bianca pela página da Sarah
+#### T003 · Substituir página da sarah pela página da Sarah
 **Quem:** Sarah (informado) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~60 min · **Depois de:** T002
 
-- **O que fazer:** A página da Bianca sai e a da Sarah entra no lugar, com todos os links da navbar, da home e do rodapé atualizados. Os passos pequenos estão na frente "Sarah", marco M1.
+- **O que fazer:** A página da sarah sai e a da Sarah entra no lugar, com todos os links da navbar, da home e do rodapé atualizados. Os passos pequenos estão na frente "Sarah", marco M1.
 - **Estudar no PDF:** Cap. 1.1 e 8.2 (ver o modelo que será mantido)
 - **Estudar fora do PDF:** [Pro Git (pt-br), caps. 2 e 3](https://git-scm.com/book/pt-br/v2)
-- **Pronto quando:** Nenhuma página aponta para bianca.html e a página da Sarah abre sem imagem quebrada.
+- **Pronto quando:** Nenhuma página aponta para sarah.html e a página da Sarah abre sem imagem quebrada.
 
 #### T004 · Convidar Joel, Luiz e Laís como colaboradores do repositório
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T001
@@ -255,7 +255,7 @@ Tarefas que valem para o grupo todo: repositório, V1, base de CSS, navbar, hero
 #### T032 · Definir as 5 cores de cada tema (principal, escura, clara, suave, texto)
 **Quem:** Laís (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~20 min · **Depois de:** T031
 
-- **O que fazer:** Para cada tema escolha 5 códigos HEX. Sugestão do projeto: Joel verde #1B6F36, Luiz vermelho #B92323, Laís rosa #C2185B, Bianca/Sarah azul #1F5FBF, home azul-marinho #1F3A5F.
+- **O que fazer:** Para cada tema escolha 5 códigos HEX. Sugestão do projeto: Joel verde #1B6F36, Luiz vermelho #B92323, Laís rosa #C2185B, sarah/Sarah azul #1F5FBF, home azul-marinho #1F3A5F.
 - **Estudar no PDF:** Cap. 2.1 (HEX)
 - **Pronto quando:** Tabela de cores no README.
 
@@ -454,7 +454,7 @@ Tarefas que valem para o grupo todo: repositório, V1, base de CSS, navbar, hero
 #### T057 · Conferir se o repositório tem só o necessário
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T056
 
-- **O que fazer:** Veja o repositório no GitHub: não deve haver arquivos de teste, rascunhos ou o bianca.html antigo.
+- **O que fazer:** Veja o repositório no GitHub: não deve haver arquivos de teste, rascunhos ou o sarah.html antigo.
 - **Estudar fora do PDF:** [Pro Git (pt-br), caps. 2 e 3](https://git-scm.com/book/pt-br/v2)
 - **Pronto quando:** Repositório limpo.
 
