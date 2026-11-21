@@ -1,0 +1,139 @@
+.tema-joel {
+    background-color: #f0fdf4;
+    color: #193b29;
+}
+
+.tema-joel h1,
+.tema-joel h2,
+.tema-joel h3 {
+    color: #14532d;
+}
+
+.tema-joel a {
+    color: #166534;
+}
+
+/* ---------- Navbar ---------- */
+
+.tema-joel .menu-comum {
+    background-color: #14532d;
+    color: #fff;
+}
+
+.tema-joel .menu-comum a {
+    color: #fff;
+}
+
+.tema-joel .menu-comum a:hover {
+    background-color: #166534;
+}
+
+.tema-joel .menu-comum a.ativo {
+    background-color: #fff;
+    color: #14532d;
+    border-bottom-color: #86efac;
+}
+
+/* ---------- Hero ---------- */
+
+.tema-joel .hero {
+    background-color: #dcfce7;
+}
+
+.tema-joel .hero .rotulo {
+    color: #166534;
+}
+
+.tema-joel .hero .btn-primary {
+    background-color: #166534;
+    border-color: #166534;
+    color: #fff;
+}
+
+.tema-joel .hero .btn-primary:hover,
+.tema-joel .hero .btn-primary:focus-visible {
+    background-color: #14532d;
+    border-color: #14532d;
+    color: #fff;
+}
+
+/* ---------- Seções ---------- */
+
+.tema-joel .secao-alt {
+    background-color: #fff;
+}
+
+.tema-joel .titulo::before {
+    background-color: #22c55e;
+}
+
+/* ---------- Cartões ---------- */
+
+.tema-joel .cartao {
+    background-color: #f0fdf4;
+    border: 1px solid #bbf7d0;
+}
+
+.tema-joel .cartao:hover,
+.tema-joel .cartao:focus-within {
+    border-color: #166534;
+}
+
+/* ---------- Curiosidades ---------- */
+
+.tema-joel .cartao .row .foto img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+/* ---------- Fotos ---------- */
+
+.tema-joel .foto:hover,
+.tema-joel .foto:focus-visible {
+    outline: 3px solid #166534;
+}
+
+.tema-joel .foto-banner img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+/* ---------- Galeria ---------- */
+
+.tema-joel .galeria-interesses {
+    margin-top: 1rem;
+}
+
+.tema-joel .galeria-interesses .foto img,
+.tema-joel .galeria-lugares .foto img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.tema-joel .galeria-lugares .subtitulo {
+    margin: 0.75rem 0 0;
+    color: #166534;
+}
+
+/* ---------- Rodapé ---------- */
+
+.tema-joel .rodape {
+    background-color: #14532d;
+    color: #fff;
+}
+
+.tema-joel .rodape a {
+    color: #fff;
+}
+
+.tema-joel .rodape a:hover {
+    color: #bbf7d0;
+}
+
+/* ---------- Responsividade ---------- */
+
+@media (max-width: 575px) {
+    .tema-joel .galeria-interesses .foto img {
+        aspect-ratio: 1;
+    }
+}
