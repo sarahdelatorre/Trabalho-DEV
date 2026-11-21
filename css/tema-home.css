@@ -1,0 +1,75 @@
+.tema-home {
+    background-color: #f4f8fc;
+    color: #193247;
+}
+
+.tema-home .menu-comum,
+.tema-home .rodape {
+    background-color: #142f49;
+    color: #fff;
+}
+
+.tema-home .menu-comum a,
+.tema-home .rodape a {
+    color: #fff;
+}
+
+.tema-home .menu-comum a:hover {
+    background-color: #23577d;
+}
+
+.tema-home .menu-comum a.ativo {
+    background-color: #fff;
+    color: #142f49;
+    border-bottom-color: #74b5df;
+}
+
+.tema-home .rodape a:hover {
+    color: #b8dcf2;
+}
+
+.tema-home .hero {
+    display: flex;
+    align-items: center;
+    min-height: 65vh;
+    background-color: #e5f2fa;
+}
+
+.tema-home .hero .container {
+    max-width: 880px;
+}
+
+.tema-home .hero h1 {
+    color: #142f49;
+}
+
+.tema-home .hero .rotulo {
+    color: #23577d;
+    font-weight: 700;
+}
+
+.tema-home .hero .intro {
+    max-width: 640px;
+    margin: 0 auto 2rem;
+    font-size: 1.125rem;
+}
+
+.tema-home .hero .btn-primary {
+    background-color: #23577d;
+    border-color: #23577d;
+    color: #fff;
+}
+
+.tema-home .hero .btn-primary:hover,
+.tema-home .hero .btn-primary:focus-visible {
+    background-color: #142f49;
+    border-color: #142f49;
+    color: #fff;
+}
+
+@media (max-width: 575px) {
+    .tema-home .atalhos li,
+    .tema-home .atalhos .btn {
+        width: 100%;
+    }
+}
