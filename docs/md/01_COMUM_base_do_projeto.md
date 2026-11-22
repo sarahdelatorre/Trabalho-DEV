@@ -138,7 +138,7 @@ Tarefas que valem para o grupo todo: repositório, V1, base de CSS, navbar, hero
 **Quem:** Joel (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T015 · *passo de T002*
 
 - **O que fazer:** Copie as pastas do estado inicial para dentro da pasta do repositório, mantendo os mesmos nomes (files, images, icons). Não renomeie nada.
-- **Estudar no PDF:** Cap. 1.2 (por que os caminhos "../images" precisam ser mantidos)
+- **Estudar no PDF:** Cap. 1.2 (por que os caminhos "images" precisam ser mantidos)
 - **Pronto quando:** As 3 pastas estão no repositório com a mesma estrutura do zip original.
 
 #### T017 · Abrir files/index.html a partir do repositório e conferir se as imagens aparecem
@@ -203,7 +203,7 @@ Tarefas que valem para o grupo todo: repositório, V1, base de CSS, navbar, hero
 #### T025 · Criar a pasta css/ ao lado de files/
 **Quem:** Joel (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~5 min · **Depois de:** T024
 
-- **O que fazer:** Crie a pasta "css" dentro de Trabalhos, no mesmo nível de files, images e icons. As páginas vão chamá-la com "../css/".
+- **O que fazer:** Crie a pasta "css" dentro de Trabalhos, no mesmo nível de files, images e icons. As páginas vão chamá-la com "css/".
 - **Estudar no PDF:** Cap. 1.2 (CSS externo)
 - **Pronto quando:** Pasta css/ criada.
 

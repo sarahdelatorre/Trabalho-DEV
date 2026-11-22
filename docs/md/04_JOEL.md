@@ -73,17 +73,17 @@ Passo a passo para sair do estado inicial de `joel.html` e chegar à v3 (tema ve
 - **Estudar fora do PDF:** [Bootstrap 5.3: Get started](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - **Pronto quando:** Ao recarregar, a fonte e os espaços do texto mudam um pouco.
 
-#### T170 · Ligar ../css/estilo.css depois do Bootstrap
+#### T170 · Ligar css/estilo.css depois do Bootstrap
 **Quem:** Joel (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~5 min · **Depois de:** T169
 
-- **O que fazer:** Acrescente <link rel="stylesheet" href="../css/estilo.css"> logo abaixo da linha do Bootstrap. A ordem importa: quem vem por último vence em caso de empate.
+- **O que fazer:** Acrescente <link rel="stylesheet" href="css/estilo.css"> logo abaixo da linha do Bootstrap. A ordem importa: quem vem por último vence em caso de empate.
 - **Estudar no PDF:** Cap. 1.2 (CSS externo) e 1.4 (cascata)
 - **Pronto quando:** Fonte do body mudou para Segoe UI/Arial.
 
-#### T171 · Ligar ../css/tema-joel.css depois do estilo.css
+#### T171 · Ligar css/tema-joel.css depois do estilo.css
 **Quem:** Joel (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~5 min · **Depois de:** T170
 
-- **O que fazer:** Acrescente <link rel="stylesheet" href="../css/tema-joel.css"> como terceira linha de CSS.
+- **O que fazer:** Acrescente <link rel="stylesheet" href="css/tema-joel.css"> como terceira linha de CSS.
 - **Estudar no PDF:** Cap. 1.2 e 1.4
 - **Pronto quando:** Linha adicionada.
 
