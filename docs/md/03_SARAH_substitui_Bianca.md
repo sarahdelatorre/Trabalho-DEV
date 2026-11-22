@@ -52,17 +52,17 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 - **O que fazer:** Copie o sarah.html como molde de estrutura (h1, parágrafos, listas, imagens) e troque o conteúdo pelo da Sarah. Salve como sarah.html em files/.
 - **Pronto quando:** sarah.html criado.
 
-#### T111 · Ajustar os caminhos das imagens para ../images/sarah/…
+#### T111 · Ajustar os caminhos das imagens para images/sarah/…
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~15 min · **Depois de:** T110 · *passo de T003*
 
-- **O que fazer:** Cada <img src="…"> precisa apontar para ../images/sarah/nome-da-foto. Abra no navegador e confira se todas aparecem.
+- **O que fazer:** Cada <img src="…"> precisa apontar para images/sarah/nome-da-foto. Abra no navegador e confira se todas aparecem.
 - **Estudar no PDF:** Cap. 1.2 (caminhos de arquivos)
 - **Pronto quando:** Nenhuma imagem quebrada.
 
 #### T112 · Trocar o ícone da aba (favicon) e o <title>
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~10 min · **Depois de:** T111 · *passo de T003*
 
-- **O que fazer:** No <head>, ajuste <link rel="icon" href="../icons/Sarah_favicon.png"> (coloque o arquivo em icons/) e o <title> com o nome da Sarah.
+- **O que fazer:** No <head>, ajuste <link rel="icon" href="icons/Sarah_favicon.png"> (coloque o arquivo em icons/) e o <title> com o nome da Sarah.
 - **Pronto quando:** Aba do navegador mostra o nome e o ícone certos.
 
 #### T113 · Trocar sarah.html por sarah.html na home e nas outras páginas
@@ -138,17 +138,17 @@ Passo a passo para sair do estado inicial de `sarah.html` e chegar à v3 (tema a
 - **Estudar fora do PDF:** [Bootstrap 5.3: Get started](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - **Pronto quando:** Ao recarregar, a fonte e os espaços do texto mudam um pouco.
 
-#### T123 · Ligar ../css/estilo.css depois do Bootstrap
+#### T123 · Ligar css/estilo.css depois do Bootstrap
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~5 min · **Depois de:** T122
 
-- **O que fazer:** Acrescente <link rel="stylesheet" href="../css/estilo.css"> logo abaixo da linha do Bootstrap. A ordem importa: quem vem por último vence em caso de empate.
+- **O que fazer:** Acrescente <link rel="stylesheet" href="css/estilo.css"> logo abaixo da linha do Bootstrap. A ordem importa: quem vem por último vence em caso de empate.
 - **Estudar no PDF:** Cap. 1.2 (CSS externo) e 1.4 (cascata)
 - **Pronto quando:** Fonte do body mudou para Segoe UI/Arial.
 
-#### T124 · Ligar ../css/tema-sarah.css depois do estilo.css
+#### T124 · Ligar css/tema-sarah.css depois do estilo.css
 **Quem:** Sarah (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~5 min · **Depois de:** T123
 
-- **O que fazer:** Acrescente <link rel="stylesheet" href="../css/tema-sarah.css"> como terceira linha de CSS.
+- **O que fazer:** Acrescente <link rel="stylesheet" href="css/tema-sarah.css"> como terceira linha de CSS.
 - **Estudar no PDF:** Cap. 1.2 e 1.4
 - **Pronto quando:** Linha adicionada.
 

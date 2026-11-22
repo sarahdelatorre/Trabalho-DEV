@@ -73,17 +73,17 @@ Passo a passo para sair do estado inicial de `lais.html` e chegar à v3 (tema ro
 - **Estudar fora do PDF:** [Bootstrap 5.3: Get started](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - **Pronto quando:** Ao recarregar, a fonte e os espaços do texto mudam um pouco.
 
-#### T223 · Ligar ../css/estilo.css depois do Bootstrap
+#### T223 · Ligar css/estilo.css depois do Bootstrap
 **Quem:** Laís (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~5 min · **Depois de:** T222
 
-- **O que fazer:** Acrescente <link rel="stylesheet" href="../css/estilo.css"> logo abaixo da linha do Bootstrap. A ordem importa: quem vem por último vence em caso de empate.
+- **O que fazer:** Acrescente <link rel="stylesheet" href="css/estilo.css"> logo abaixo da linha do Bootstrap. A ordem importa: quem vem por último vence em caso de empate.
 - **Estudar no PDF:** Cap. 1.2 (CSS externo) e 1.4 (cascata)
 - **Pronto quando:** Fonte do body mudou para Segoe UI/Arial.
 
-#### T224 · Ligar ../css/tema-lais.css depois do estilo.css
+#### T224 · Ligar css/tema-lais.css depois do estilo.css
 **Quem:** Laís (sugerido) · **Prazo:** A definir · **Status:** Não Iniciada · **Esforço:** ~5 min · **Depois de:** T223
 
-- **O que fazer:** Acrescente <link rel="stylesheet" href="../css/tema-lais.css"> como terceira linha de CSS.
+- **O que fazer:** Acrescente <link rel="stylesheet" href="css/tema-lais.css"> como terceira linha de CSS.
 - **Estudar no PDF:** Cap. 1.2 e 1.4
 - **Pronto quando:** Linha adicionada.
 
